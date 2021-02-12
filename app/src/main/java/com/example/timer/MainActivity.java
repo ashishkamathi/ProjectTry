@@ -20,10 +20,8 @@ public class MainActivity extends AppCompatActivity {
      public boolean panda ;
 
     public void timerset (int j){
-
         TextView textView = (TextView) findViewById(R.id.textView);
         TextView textView2 = (TextView) findViewById(R.id.textView2);
-
          ts=j;
          min = j/60;
          sec = j%60;
