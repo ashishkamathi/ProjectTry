@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:onClick="pause"
     tools:context=".MainActivity">
-
     <SeekBar
         android:id="@+id/seekBar"
         android:layout_width="314dp"
@@ -21,7 +20,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -38,7 +36,6 @@
         app:layout_constraintEnd_toStartOf="@+id/textView3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/seekBar" />
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
